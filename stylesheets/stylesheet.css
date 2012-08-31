@@ -191,15 +191,6 @@ ul, ol, dl {
 
 /* COMMON STYLES */
 
-hr {
-	height: 1px;
-	line-height: 1px;
-	margin-top: 1em;
-	padding-bottom: 1em;
-	border: none;
-	background: transparent url(../images/hr.png) 0 0 no-repeat;
-}
-
 table {
 	width: 100%;
 	border: 1px solid #ebebeb;
@@ -338,22 +329,6 @@ ol li {
 dl dd {
 	font-style: italic;
 	font-weight: 100;
-}
-
-footer {
-	background: transparent url(../images/hr.png) 0 0 no-repeat;
-	margin-top: 40px;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	font-size: 13px;
-	color: #aaa;
-}
-
-footer a {
-	color: #666;
-}
-footer a:hover {
-	color: #444;
 }
 
 /* MISC */
