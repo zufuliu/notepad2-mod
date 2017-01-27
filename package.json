@@ -1,0 +1,27 @@
+{
+  "name": "notepad2-mod-gh-pages",
+  "version": "0.2.0",
+  "private": true,
+  "author": "XhmikosR (https://github.com/XhmikosR)",
+  "description": "The dependencies to build Notepad2-mod's GitHub pages",
+  "homepage": "https://github.com/XhmikosR/notepad2-mod/tree/gh-pages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XhmikosR/notepad2-mod.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XhmikosR/notepad2-mod/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "csslint css/stylesheet.css",
+    "minify": "cleancss --s0 --compatibility ie8 css/normalize.css css/stylesheet.css -o css/pack.css"
+  },
+  "dependencies": {
+    "clean-css": "^3.4.9",
+    "csslint": "^0.10.0"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
